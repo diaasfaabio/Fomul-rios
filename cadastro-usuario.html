@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>
+        Cadastro de Usuário
+    </h1>
+    <hr>
+        <!---container--->
+        <form name="form_cadastro_usuario" action="salvar-usuario.html" method="post"> 
+
+            <fieldset>
+                <legend><strong>Informações Pessoais</strong></legend>
+                <label for="nome">Nome: </label>
+                <input id="nome" placeholder="Nome" name="nome" required>
+             
+                <label for="Sobrenome">Sobrenome: </label>
+                <input id="Sobrenome" placeholder="Sobrenome" name="Sobrenome" required><br><br>
+
+                <label for="E-mail">E-mail: </label>
+                <input id="E-mail" size="53" type="email" placeholder="E-mail" name="E-mail" required>
+
+            </fieldset><br>
+
+            <fieldset>
+                    <legend><strong>Informações do Usuário</strong></legend>
+
+                <label for="Nome de usuário">Nome de usuário: </label>
+                <input id="Nome de usuário" placeholder="Nome de usuário"name="Nome de usuário" required><br><br>
+
+                <label for="Senha">Senha:</label>
+                <input id="Senha" size="29" type="password" required placeholder="Senha" name="Senha">
+
+                <label for="Confirmação de senha">Confirmação de senha: </label>
+                <input id="Confirmação de senha" type="password" placeholder="Confirmação de senha" name="Confirmação de senha" required><br><br>   
+                    
+
+                <label for="Dica de senha">Dica de senha: </label>
+                <input id="Dica de senha" size="23" placeholder="SenhaDica de Senha" name="Dica de senha" required>
+</fieldset><br>
+
+            <fieldset>
+                    <legend><strong>Redes Sociais </strong></legend>
+
+            <label>
+                    <img src="linkedin (2).png">   <em>Linkedin.com.in</em> &nbsp;<input size="60" placeholder="Linkedin">
+            </label><br>
+            <label>
+                    <img src="facebook (2).png">   <em>Fecebook.com</em>  &nbsp;&nbsp; <input size="60" placeholder="Facebook">
+            </label><br>
+            <label>
+                    <img src="instagram (2).png">  <em>Instagram.com</em>  &nbsp; <input size="60" placeholder="Instagram">
+            </label>
+        </fieldset>
+<br>
+        <fieldset>
+            <legend><strong>Contrato</strong></legend>
+            Aceita os termos do contrato?
+            <br><br>
+            <input type="radio" name="contrato">Sim &nbsp;
+            <input type="radio" name="contrato">Não <br>
+            <br>
+            Aceita esse outro contrato?
+            <select name="contrato2">
+                <option></option> 
+                    <option>Sim</option>
+                    <option>Com certeza</option>
+                    </select>   
+
+        </fieldset>
+
+<br>
+            <button>Salvar</button>
+               
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        </form>
+     <hr>
+</body>
+</html>
